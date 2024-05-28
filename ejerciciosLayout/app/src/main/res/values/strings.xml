@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ejerciciosLayout</string>
+    <string name="boton1">LinearLayout</string>
+    <string name="boton2">RelativeLayout</string>
+    <string name="boton3">FrameLayout</string>
+    <string name="boton4">ConstraintLayout</string>
+    <string name="boton5">CardView</string>
+    <string name="boton6">RecyclerView</string>
+    <string name="boton7">ListView</string>
+    <string name="boton8">InterfazNavegador</string>
+    <string name="boton9">InterfazLogin</string>
+    <string name="boton10">InterfazAbout</string>
+    <string name="boton11">InterfazListView</string>
+
+    <string name="botonFragment1">Fragmento 1</string>
+    <!-- Texto para los fragmentos -->
+    <string name="fragment1">fragmento 1</string>
+</resources>

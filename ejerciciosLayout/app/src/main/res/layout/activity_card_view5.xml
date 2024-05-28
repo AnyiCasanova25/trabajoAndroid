@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D38E89"
+    tools:context=".CardView5">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="127dp"
+        android:layout_height="65dp"
+        android:text="CardView"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="250dp"
+        android:layout_height="368dp"
+        app:cardBackgroundColor="#A87171"
+        app:cardCornerRadius="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="168dp"
+            android:layout_height="146dp"
+            android:layout_margin="40dp"
+            app:cardBackgroundColor="#C38484"
+            app:cardCornerRadius="52dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="171dp"
+                android:layout_height="147dp"
+                app:srcCompat="@drawable/coffee_shop_restaurant_svgrepo_com" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="165dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center|top"
+            android:layout_margin="200dp"
+            android:layout_marginHorizontal="165dp"
+            android:layout_marginVertical="165dp"
+            android:layout_marginStart="165dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginEnd="165dp"
+            android:layout_marginRight="165dp"
+            android:layout_marginBottom="165dp"
+            android:text="MENU                              jiogvjsiosjidifgjibdivjfiojvbijfvbijbij dijviofjiovjidovjijfvijbio fdiojvifiojbiojigbfjiogjb ifjbiofjbiogjfboi."
+            android:textAlignment="center" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnVolver4"
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#A87171"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
